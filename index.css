@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#homeImg {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: burlywood;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+    border-bottom: solid 1px transparent;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    border-bottom: solid 1px red;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: burlywood;
+}
+
+#homeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: burlywood;
+}
+
+#headMenuElement {
+    padding: 0 5px;
+    margin: 0 20px;
+}
+
+.artistBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.secondFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+}
+
+footer {
+    color: white;
+    display: flex;
+    flex: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+#homeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 20px;
+    background-color: lightgray;
+
+}
+
+#contactButton {
+    width: 100px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#contactInput {
+    height: 30px;
+}
+
+#artistGrid {
+    margin: 5px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    gap: 5px;
+    grid-template-columns: repeat(4,25%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}

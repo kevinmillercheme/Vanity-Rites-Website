@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: brown;
+    background-color: #302406;
 }
 
 h1 {
@@ -10,11 +10,13 @@ h1 {
 }
 
 #homeImg {
-    display: flex;
-    margin: 0;
-    padding: 0;
     text-align: center;
-    background-color: burlywood;
+    width: 275px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 a {
@@ -26,21 +28,17 @@ a {
 }
 
 a:hover {
-    border-bottom: solid 1px red;
+    border-bottom: solid 1px #c9dfbf;
 }
 
 p {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: first baseline;
+    text-align: justify;
     background-color: burlywood;
-}
-
-#homeImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: 300px;
 }
 
 .headMenu {
@@ -49,12 +47,15 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: burlywood;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
 }
 
 #headMenuElement {
     padding: 0 5px;
     margin: 0 20px;
+    color: #c9dfbf;
 }
 
 .artistBlock {
@@ -65,12 +66,15 @@ p {
 }
 
 .secondFooter {
+    background-image: url(shutterstock_176264717.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: first baseline;
     text-align: center;
     background-color: red;
+    height: 300px;
 }
 
 footer {
@@ -82,16 +86,11 @@ footer {
     justify-content: center;
     text-align: center;
     background-color: black;
+    height: 40px;
 }
 
 button {
     cursor: pointer;
-}
-
-#homeImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .contactBlock {
@@ -122,9 +121,52 @@ button {
     display: grid;
     place-content: center;
     text-align: center;
-    gap: 5px;
+    gap: 35px;
     grid-template-columns: repeat(4,25%);
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
+}
+
+/* ADD COMMAND TO LOCK DIMENSIONS FOR MOBILE VIEWING TOO */
+
+.staffImg {
+    width: 200px;
+}
+
+#contactButtonHome {
+    margin-bottom: 20px;
+}
+
+#descriptionHome {
+    display: flex;
+    flex-direction: column;
+    color: #efb000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+#backImg {
+    text-align: center;
+    background-color: red;
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.staffPortButton {
+    border-radius: 15px;
+}
+
+.staffPortButton:hover {
+    background-color: orange;
+}
+
+#studioEmail {
+    color: #c9dfbf
 }
